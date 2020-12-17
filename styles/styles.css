@@ -1,0 +1,145 @@
+*{
+  /*margin: 0;
+  padding: 0;*/
+  box-sizing: border-box;
+  
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+@media screen and (max-width: 1060px){
+  #primary{width: 67%;}
+  #secondary{width: 30%; margin-left: 3%;}
+}
+
+@media screen and (max-width: 768px){
+  #primary{width: 100%;}
+  #secondary{width: 100%; margin: 0; border:none;}
+}
+
+.main {   
+  
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  
+}
+
+
+.header{
+  padding: 80px; 
+  text-align: center;
+  background: #818079;
+  color: white;
+  justify-content: center;
+
+  background-image: url(https://wallpaperaccess.com/full/1693689.png);
+  
+}
+
+a{
+  cursor: pointer;
+}
+
+.card{
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10%;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(87, 78, 78);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  
+  
+}
+
+/* Style the navigation bar links */
+  .navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  
+}
+
+
+/* Right-aligned link */
+  .navbar a.right {
+  float: right;
+  
+  }
+
+/* Change color on hover */
+  .navbar a:hover {
+  background-color: #cab450;
+  color: black;
+  
+  }
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+  
+}
+
+
+
+.home {  
+  
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.side {
+  
+  flex: 10%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+
+.headline{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-container{
+display: flex;
+justify-content: flex-start;
+background-color:#818079;
+}
+#time{
+text-align: center;
+margin-left: 500px;  
+color: rgb(5, 5, 5);
+}
+
+/*button top*/
+#myBtn {
+display: none;
+position: fixed;
+bottom: 20px;
+right: 30px;
+z-index: 99;
+border: none;
+outline: none;
+background-color: #555;
+color: white;
+cursor: pointer;
+padding: 15px;
+border-radius: 10px;
+font-size: 18px;
+}
+
